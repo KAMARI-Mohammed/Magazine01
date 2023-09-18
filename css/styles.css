@@ -1,0 +1,83 @@
+:root {
+    --blue: #2B458F;
+    --white: #faf0e6;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+p.solid {
+    color: white;
+    padding-top: 5px;
+    background-color:var(--blue);    
+    border-style: solid;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15;
+}
+
+p.til {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+p.paragraph1 {
+
+    color: black;
+    font-weight: bold;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+p.paragraph2 {
+    margin: 0; 
+    color: #000000; 
+    direction: ltr; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px; 
+    font-weight: 400; 
+    letter-spacing: normal; 
+    line-height: 120%; 
+    text-align: center; 
+    margin-top: 0; 
+    margin-bottom: 0;
+    
+}
+
+p.paragraph3 {
+
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span.mot{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+legend {
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+    margin-top: 30px ;
+    font-size: 8px ;
+
+	/* turn the text sideways */
+	-o-writing-mode: vertical-lr;
+	-ms-writing-mode: vertical-lr;
+	-moz-writing-mode: vertical-lr;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+
+	/* flip th etext around */
+	-o-transform: rotate(180deg); /* Opera */
+	-ms-transform: rotate(180deg); /* IE */
+    -moz-transform: rotate(180deg); /* Moz */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg0);
+}
